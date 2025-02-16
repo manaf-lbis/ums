@@ -18,6 +18,9 @@ export const checkAuth = createAsyncThunk("auth/checkAuth", async () => {
     const response = await fetch(API_URL + "/auth/user", {
       method: "GET",
       credentials: "include",
+      headers: {
+        "Content-Type": "application/json",
+      },
     });
 
     if (!response.ok) {
