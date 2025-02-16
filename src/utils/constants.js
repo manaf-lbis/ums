@@ -13,6 +13,8 @@
 // export const IMG_URL = "https://server-pid2ed5wh-codebrocamp-gmailcoms-projects.vercel.app/images/"
 // export const API_URL  = "https://server-mz2plsib8-codebrocamp-gmailcoms-projects.vercel.app"
 // export const IMG_URL = "https://server-mz2plsib8-codebrocamp-gmailcoms-projects.vercel.app/images/"
-export const API_URL  = "https://server-1sj5qrgkj-codebrocamp-gmailcoms-projects.vercel.app"
-export const IMG_URL = "https://server-1sj5qrgkj-codebrocamp-gmailcoms-projects.vercel.app/images/"
+// export const API_URL  = "https://server-1sj5qrgkj-codebrocamp-gmailcoms-projects.vercel.app"
+// export const IMG_URL = "https://server-1sj5qrgkj-codebrocamp-gmailcoms-projects.vercel.app/images/"
+export const API_URL  = "https://server-2wwr1nl6i-codebrocamp-gmailcoms-projects.vercel.app"
+export const IMG_URL = "https://server-2wwr1nl6i-codebrocamp-gmailcoms-projects.vercel.app/images/"
 
