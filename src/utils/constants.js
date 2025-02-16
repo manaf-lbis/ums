@@ -11,3 +11,4 @@
 
 export const API_URL  = "https://server-pid2ed5wh-codebrocamp-gmailcoms-projects.vercel.app"
 export const IMG_URL = "https://server-pid2ed5wh-codebrocamp-gmailcoms-projects.vercel.app/images/"
+

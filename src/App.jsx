@@ -25,6 +25,8 @@ function App() {
         <Route path='/dashboard' element={ <ProtectedRoute element={<AdminDashboard/> } allowedRoles={["admin"]}/>  } />
         <Route path='/home' element={<ProtectedRoute element={<Home />} allowedRoles={["user"]}/>  } />
         <Route path='/profile' element={<ProtectedRoute element={<Profile />} allowedRoles={["user"]} />} />
+        {/* Catch all unknown routes */}
+        <Route path="*" element={<h1>404 - Not Found</h1>} />
         
       </Routes>
     </BrowserRouter>
