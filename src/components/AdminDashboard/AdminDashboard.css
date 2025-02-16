@@ -1,0 +1,130 @@
+
+.appList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  padding: 12px 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.listBtn{
+  width: 70px;
+  height: 30px;
+  padding: 2px 2px;
+}
+.profilePic{
+  width: 60px;
+  height: 60px;
+  border-radius: 23px;
+}
+.userCard{
+  padding: 15px 33px;
+}
+
+
+/* 
+
+.glass_card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+
+.appList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual User Card */
+.userCard {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(201, 198, 198);
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+.userCard:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
+.profilePic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.listBtn {
+  width: 80px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.listBtn:hover {
+  transform: scale(1.05);
+} */
+
+
+.userCard {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap inside */
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* Adds spacing */
+  margin-bottom: 10px;
+}
+
+.listBtn {
+  width: 80px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap; /* Prevents text from breaking */
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap if needed */
+  gap: 10px;
+}
+
+.userList{
+  width: 800px;
+  height: 67vh;
+}
+.approveList{
+  flex-grow: 1;
+}
+
+.userLIsting{
+  
+  max-height: 67vh;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.searchcontainerr{
+  display: flex;
+}

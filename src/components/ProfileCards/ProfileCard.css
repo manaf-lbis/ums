@@ -1,0 +1,87 @@
+.galss_card {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 4px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.profile_container{
+  display: flex;
+  gap: 15px;
+}
+
+.profile_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 37px 35px;
+}
+.imgsec{
+  position: relative;
+}
+.imgsec .bi-pencil{
+  position: absolute;
+  right: 10px;
+  top: 5;
+  color: green;
+}
+
+.profile_card .profile_icon{
+  width: 150px;
+  border-radius: 22px;
+  padding: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile_card .profile_card_body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profileSection{
+  flex-grow: 0.5;
+  padding: 37px 35px;
+}
+.bi-pencil{
+  cursor: pointer;
+}
+.profileSection .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list div{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.list div i{
+  font-size: 20px;
+}
+.list div span{
+  font-size: 20px;
+  color: grey;
+}
+
+.list p{
+  font-size: 20px;
+  margin: 0;
+}
+
+
+.address_section{
+  flex-grow: 1;
+}
+
+
+
+
+
+@media (max-width : 767px) {
+  .profile_container{
+    display: block;
+    padding: 0 50px;
+  }
+}

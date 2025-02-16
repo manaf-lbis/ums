@@ -1,0 +1,128 @@
+.glass{
+  backdrop-filter: blur(15px) saturate(200%);
+  -webkit-backdrop-filter: blur(15px) saturate(200%); 
+  /* background-color: rgba(255, 255, 255, 0.72); */
+  background-color: rgba(255, 255, 255, 0.72);  
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+ 
+
+.navbar{
+  display: flex;
+  padding: 16px 34px;
+}
+.logo{
+  padding: 5px 8px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.logo span{
+  font-weight: 700;
+  color: rgb(28 33 47);
+  margin-left: 5px;
+}
+.logo img {
+  width: 26px; 
+}
+
+.nav_sec{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 2px 2px;
+  border-radius: 22px;
+}
+.nav_sec .nav_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: black;
+  border-radius: 22px;
+  padding: 0 5px;
+
+  backdrop-filter: blur(15px) saturate(200%);
+  -webkit-backdrop-filter: blur(15px) saturate(200%);
+  background-color:  rgb(0 224 251 / 24%);
+}
+.nav_sec .nav_icon span{
+  font-size: 16px;
+  font-weight: 700;
+  padding-right: 3px;
+}
+.nav_sec .nav_icon i{
+   font-size: 23px;
+}
+.main .nav_icon{
+  gap: 0;
+  cursor: pointer;
+}
+.main .nav_icon span {
+  display: inline-block;      
+  max-width: 0;               
+  overflow: hidden;         
+  white-space: nowrap;       
+  opacity: 0;           
+  transition: max-width 0.5s ease-in, opacity 0.5s ease-in;
+}
+
+.main .nav_icon:hover span {
+  max-width: 200px; 
+  opacity: 1;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+
+
+.menu{
+  list-style: none;
+}
+
+.drop_down .menu{
+  display: none;
+  position: absolute;
+}
+
+.drop_down:hover .menu{
+  display: block;
+}
+
+.drop_down {
+  position: relative;
+  display: inline-block; 
+}
+
+.menu {
+  display: none;        
+  position: absolute;    
+  top: 100%;               
+  right: 0;                   
+  border: 1px solid #ddd;   
+  border-radius: 4px;    
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  list-style: none;        
+  margin: 0;             
+  padding: 0;            
+  z-index: 1000;            
+  min-width: 150px;     
+}
+
+.drop_down:hover .menu {
+  display: block;
+}
+
+.menu li {
+  padding: 2px 22px;          
+  cursor: pointer;           
+  transition: background-color 0.2s ease;
+}
+
+.menu li i {
+  margin-right: 8px;
+}
+
